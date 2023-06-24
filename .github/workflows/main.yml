@@ -23,6 +23,7 @@ jobs:
         env:
           CI: true
         run: |
+          cd ./src/
           npm i
       - name: deploy
         run: |
