@@ -28,4 +28,4 @@ jobs:
         run: |
           zip -j deploy.zip ./src/*
           aws lambda update-function-code --function-name=lambda-cicd-git --zip-file=fileb://deploy.zip
-IDENTITY_PROVIDER_ARN
+
