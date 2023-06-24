@@ -4,6 +4,9 @@ on:
   push:
     branches:
     - master
+permissions:
+  id-token: write #for OIDC
+  contents: read
 
 jobs:
   deploy_lambda:
